@@ -1,0 +1,12 @@
+.team-container{
+    display: flex;
+    justify-content: center;
+}
+.member-container{
+    padding: 10px;
+    text-align: center;
+}
+.picture-container{
+    height: 200px;
+    width: 200px;
+}
