@@ -14,7 +14,7 @@ import {
 	TableRowsRounded,
 	HomeRounded,
 	PeopleRounded,
-	InfoRounded,
+	SportsSoccerRounded,
 	HistoryRounded,
 } from "@mui/icons-material";
 import {
@@ -26,17 +26,15 @@ import {
 	useParams,
 } from "react-router-dom";
 import "../styles/Sidebar.css";
-import Teampage from "./Teampage";
-import Homepage from "./Homepage";
 
 function Sidebar() {
 	const [open, toggleDrawer] = useState(false);
-
+	const textColor = "rgba(0, 0, 0, 0.7)";
 	const list = () => (
 		<Box>
 			<List>
 				<Link
-					to="/"
+					to="/ipmwebsite/"
 					style={{ textDecoration: "none" }}
 					onClick={() => toggleDrawer(!open)}
 				>
@@ -44,14 +42,14 @@ function Sidebar() {
 						<ListItemIcon>
 							<HomeRounded />
 						</ListItemIcon>
-						<ListItemText primary={"Homepage"} />
+						<ListItemText primary={"Homepage"} sx={{ color: textColor }} />
 					</ListItem>
 				</Link>
 			</List>
 			<Divider />
 			<List>
 				<Link
-					to="/ourteam"
+					to="/ipmwebsite/ourteam"
 					style={{ textDecoration: "none" }}
 					onClick={() => toggleDrawer(!open)}
 				>
@@ -59,23 +57,23 @@ function Sidebar() {
 						<ListItemIcon>
 							<PeopleRounded />
 						</ListItemIcon>
-						<ListItemText primary={"Our Team"} />
+						<ListItemText primary={"Our Team"} sx={{ color: textColor }} />
 					</ListItem>
 				</Link>
 				<Link
-					to="/ourmission"
+					to="/ipmwebsite/ourgoal"
 					style={{ textDecoration: "none" }}
 					onClick={() => toggleDrawer(!open)}
 				>
-					<ListItem button key={"Our Mission"}>
+					<ListItem button key={"Our Goal"}>
 						<ListItemIcon>
-							<InfoRounded />
+							<SportsSoccerRounded />
 						</ListItemIcon>
-						<ListItemText primary={"Our Mission"} />
+						<ListItemText primary={"Our Goal"} sx={{ color: textColor }} />
 					</ListItem>
 				</Link>
 				<Link
-					to="/devhistory"
+					to="/ipmwebsite/devhistory"
 					style={{ textDecoration: "none" }}
 					onClick={() => toggleDrawer(!open)}
 				>
@@ -83,7 +81,10 @@ function Sidebar() {
 						<ListItemIcon>
 							<HistoryRounded />
 						</ListItemIcon>
-						<ListItemText primary={"Development History"} />
+						<ListItemText
+							primary={"Development History"}
+							sx={{ color: textColor }}
+						/>
 					</ListItem>
 				</Link>
 			</List>

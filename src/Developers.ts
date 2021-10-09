@@ -3,18 +3,21 @@ export const members = [
         "name": "Alberto Miguel Pires Alves",
         "number": "55289",
         "email": "amp.alves@campus.fct.unl.pt",
-        "photo": "https://pbs.twimg.com/profile_images/1379954981617467395/n88BNIuo_400x400.jpg"
+        "photo": "https://pbs.twimg.com/profile_images/1379954981617467395/n88BNIuo_400x400.jpg",
+        "club": "https://logodownload.org/wp-content/uploads/2017/03/fc-porto-logo-2.png"
     },
     {
         "name": "Francisco Duarte Lourenço Simões",
         "number": "55329",
         "email": "fd.simoes@campus.fct.unl.pt",
-        "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQH34URFk1ePXA/profile-displayphoto-shrink_800_800/0/1615735027017?e=1639008000&v=beta&t=legt1oHS5VnbPavqu2ASReP31V0dP8i2TvwHUog9clI"
+        "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQH34URFk1ePXA/profile-displayphoto-shrink_800_800/0/1615735027017?e=1639008000&v=beta&t=legt1oHS5VnbPavqu2ASReP31V0dP8i2TvwHUog9clI",
+        "club": "https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png"
     },
     {
-        "name": "Guilherme GUERRERIO Pereira Gil",
+        "name": "Guilherme Guerreiro Pereira Gil",
         "number": "55313",
         "email": "gg.gil@campus.fct.unl.pt",
-        "photo": "https://scontent.flis8-2.fna.fbcdn.net/v/t1.6435-9/86796430_2378214205809434_8396848938434428928_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=pR1-uCr6c0EAX_JyouJ&_nc_ht=scontent.flis8-2.fna&oh=61c933ffbd2fa3344896869f4a41dd5e&oe=61878CE0"
+        "photo": "https://media-exp1.licdn.com/dms/image/C5603AQEzs32pNOJtpw/profile-displayphoto-shrink_800_800/0/1615750210780?e=1639008000&v=beta&t=uadK_FfgcukPBio6hm-2ZrUE1YA1KXor3PJtX_qc-YE",
+        "club": "https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png"
     }
 ]

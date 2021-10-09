@@ -20,12 +20,12 @@ function App() {
 				<Sidebar />
 				<Header></Header>
 				<Switch>
-					<Route path="/ourteam" exact>
+					<Route path="/ipmwebsite/ourteam" exact>
 						<Teampage />
 					</Route>
-					<Route path="/ourmission" exact></Route>
-					<Route path="/devhistory" exact></Route>
-					<Route path="/" exact>
+					<Route path="/ipmwebsite/ourgoal" exact></Route>
+					<Route path="/ipmwebsite/devhistory" exact></Route>
+					<Route path="/ipmwebsite/" exact>
 						<Homepage />
 					</Route>
 				</Switch>

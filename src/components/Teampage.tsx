@@ -10,10 +10,10 @@ function Teampage() {
 			<div className="team-container">
 				{developers.map((m) => (
 					<div className="member-container">
-						<p>{m.name}</p>
-						<p>{m.number}</p>
-						<p>{m.email}</p>
 						<img src={m.photo} className="picture-container"></img>
+						<p className="member-text">{m.name}</p>
+						<p className="member-text">{m.number}</p>
+						<p className="member-text">{m.email}</p>
 					</div>
 				))}
 			</div>
