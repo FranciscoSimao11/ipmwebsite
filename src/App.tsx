@@ -1,8 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
 import "./App.css";
-import Sidebar from "./components/Sidebar";
-import Homepage from "./components/Homepage";
 import {
 	BrowserRouter as Router,
 	Switch,
@@ -11,7 +9,11 @@ import {
 	useRouteMatch,
 	useParams,
 } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
+import Homepage from "./components/Homepage";
 import Teampage from "./components/Teampage";
+import Goalpage from "./components/Goalpage";
+import Devhistorypage from "./components/Devhistorypage";
 
 function App() {
 	return (
@@ -23,8 +25,12 @@ function App() {
 					<Route path="/ipmwebsite/ourteam" exact>
 						<Teampage />
 					</Route>
-					<Route path="/ipmwebsite/ourgoal" exact></Route>
-					<Route path="/ipmwebsite/devhistory" exact></Route>
+					<Route path="/ipmwebsite/ourgoal" exact>
+						<Goalpage />
+					</Route>
+					<Route path="/ipmwebsite/devhistory" exact>
+						<Devhistorypage />
+					</Route>
 					<Route path="/ipmwebsite/" exact>
 						<Homepage />
 					</Route>
