@@ -17,26 +17,28 @@ import Devhistorypage from "./components/Devhistorypage";
 
 function App() {
 	return (
-		<div className="App">
-			<Router>
-				<Sidebar />
-				<Header></Header>
-				<Switch>
-					<Route path="/ipmwebsite/ourteam" exact>
-						<Teampage />
-					</Route>
-					<Route path="/ipmwebsite/ourgoal" exact>
-						<Goalpage />
-					</Route>
-					<Route path="/ipmwebsite/devhistory" exact>
-						<Devhistorypage />
-					</Route>
-					<Route path="/ipmwebsite/" exact>
-						<Homepage />
-					</Route>
-				</Switch>
-			</Router>
-		</div>
+		<body>
+			<div className="App">
+				<Router>
+					<Sidebar />
+					<Header></Header>
+					<Switch>
+						<Route path="/ipmwebsite/ourteam" exact>
+							<Teampage />
+						</Route>
+						<Route path="/ipmwebsite/ourgoal" exact>
+							<Goalpage />
+						</Route>
+						<Route path="/ipmwebsite/devhistory" exact>
+							<Devhistorypage />
+						</Route>
+						<Route path="/ipmwebsite/" exact>
+							<Homepage />
+						</Route>
+					</Switch>
+				</Router>
+			</div>
+		</body>
 	);
 }
 

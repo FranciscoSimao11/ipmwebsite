@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
 	Drawer,
 	IconButton,
@@ -17,14 +17,7 @@ import {
 	SportsSoccerRounded,
 	HistoryRounded,
 } from "@mui/icons-material";
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link,
-	useRouteMatch,
-	useParams,
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/Sidebar.css";
 
 function Sidebar() {
