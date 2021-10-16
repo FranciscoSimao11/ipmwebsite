@@ -17,8 +17,8 @@ import Devhistorypage from "./components/Devhistorypage";
 
 function App() {
 	return (
-		<body>
-			<div className="App">
+		<div className="App">
+			<div className="Content">
 				<Router>
 					<Sidebar />
 					<Header></Header>
@@ -38,7 +38,7 @@ function App() {
 					</Switch>
 				</Router>
 			</div>
-		</body>
+		</div>
 	);
 }
 
