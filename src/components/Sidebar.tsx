@@ -17,6 +17,8 @@ import {
 	SportsSoccerRounded,
 	HistoryRounded,
 } from "@mui/icons-material";
+
+import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 import "../styles/Sidebar.css";
 
@@ -91,7 +93,7 @@ function Sidebar() {
 				onClick={() => toggleDrawer(!open)}
 				sx={{ marginLeft: "5px", marginTop: "5px" }}
 			>
-				<TableRowsRounded sx={{ height: "50px", width: "50px" }} />
+				<MenuIcon sx={{ height: "50px", width: "50px" }} />
 			</IconButton>
 			<Drawer open={open} onClose={() => toggleDrawer(false)}>
 				{list()}
