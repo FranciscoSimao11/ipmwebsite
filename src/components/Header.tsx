@@ -4,7 +4,7 @@ import "../styles/Header.css";
 function Header() {
 	return (
 		<div className="Header-wrapper">
-			<p className="Header">Ball Together</p>
+			<p className="Header"></p>
 		</div>
 	);
 }
