@@ -16,6 +16,7 @@ import {
 	PeopleRounded,
 	SportsSoccerRounded,
 	HistoryRounded,
+	FolderRounded,
 } from "@mui/icons-material";
 
 import MenuIcon from "@mui/icons-material/Menu";
@@ -80,6 +81,18 @@ function Sidebar() {
 							primary={"Development History"}
 							sx={{ color: textColor }}
 						/>
+					</ListItem>
+				</Link>
+				<Link
+					to="/ipmwebsite/assignments"
+					style={{ textDecoration: "none" }}
+					onClick={() => toggleDrawer(!open)}
+				>
+					<ListItem button key={"Assignments"}>
+						<ListItemIcon>
+							<FolderRounded />
+						</ListItemIcon>
+						<ListItemText primary={"Assignments"} sx={{ color: textColor }} />
 					</ListItem>
 				</Link>
 			</List>

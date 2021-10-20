@@ -14,6 +14,7 @@ import Homepage from "./components/Homepage";
 import Teampage from "./components/Teampage";
 import Goalpage from "./components/Goalpage";
 import Devhistorypage from "./components/Devhistorypage";
+import Assignments from "./components/Assignments";
 
 function App() {
 	return (
@@ -31,6 +32,9 @@ function App() {
 						</Route>
 						<Route path="/ipmwebsite/devhistory" exact>
 							<Devhistorypage />
+						</Route>
+						<Route path="/ipmwebsite/assignments" exact>
+							<Assignments />
 						</Route>
 						<Route path="/ipmwebsite/" exact>
 							<Homepage />
