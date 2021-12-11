@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ipmwebsite/static/css/main.6c943ee1.chunk.css",
-    "main.js": "/ipmwebsite/static/js/main.ebb1ab4a.chunk.js",
-    "main.js.map": "/ipmwebsite/static/js/main.ebb1ab4a.chunk.js.map",
-    "runtime-main.js": "/ipmwebsite/static/js/runtime-main.cd691785.js",
-    "runtime-main.js.map": "/ipmwebsite/static/js/runtime-main.cd691785.js.map",
-    "static/js/2.fc99ca7b.chunk.js": "/ipmwebsite/static/js/2.fc99ca7b.chunk.js",
-    "static/js/2.fc99ca7b.chunk.js.map": "/ipmwebsite/static/js/2.fc99ca7b.chunk.js.map",
-    "static/js/3.4d0db619.chunk.js": "/ipmwebsite/static/js/3.4d0db619.chunk.js",
-    "static/js/3.4d0db619.chunk.js.map": "/ipmwebsite/static/js/3.4d0db619.chunk.js.map",
+    "main.css": "/ipmwebsite/static/css/main.efa5d9c8.chunk.css",
+    "main.js": "/ipmwebsite/static/js/main.17b6b199.chunk.js",
+    "main.js.map": "/ipmwebsite/static/js/main.17b6b199.chunk.js.map",
+    "runtime-main.js": "/ipmwebsite/static/js/runtime-main.67a8b480.js",
+    "runtime-main.js.map": "/ipmwebsite/static/js/runtime-main.67a8b480.js.map",
+    "static/js/2.557ea611.chunk.js": "/ipmwebsite/static/js/2.557ea611.chunk.js",
+    "static/js/2.557ea611.chunk.js.map": "/ipmwebsite/static/js/2.557ea611.chunk.js.map",
+    "static/js/3.a169a210.chunk.js": "/ipmwebsite/static/js/3.a169a210.chunk.js",
+    "static/js/3.a169a210.chunk.js.map": "/ipmwebsite/static/js/3.a169a210.chunk.js.map",
     "index.html": "/ipmwebsite/index.html",
-    "static/css/main.6c943ee1.chunk.css.map": "/ipmwebsite/static/css/main.6c943ee1.chunk.css.map",
-    "static/js/2.fc99ca7b.chunk.js.LICENSE.txt": "/ipmwebsite/static/js/2.fc99ca7b.chunk.js.LICENSE.txt",
+    "static/css/main.efa5d9c8.chunk.css.map": "/ipmwebsite/static/css/main.efa5d9c8.chunk.css.map",
+    "static/js/2.557ea611.chunk.js.LICENSE.txt": "/ipmwebsite/static/js/2.557ea611.chunk.js.LICENSE.txt",
     "static/media/BadExample.59a83cdd.jpg": "/ipmwebsite/static/media/BadExample.59a83cdd.jpg",
     "static/media/Capture.87c95383.jpg": "/ipmwebsite/static/media/Capture.87c95383.jpg",
     "static/media/Metro Lisboa Aberto.96c74c7c.jpg": "/ipmwebsite/static/media/Metro Lisboa Aberto.96c74c7c.jpg",
@@ -19,13 +19,14 @@
     "static/media/Sol Metro.4ead3f25.jpg": "/ipmwebsite/static/media/Sol Metro.4ead3f25.jpg",
     "static/media/goodExample.4ec406c4.jpg": "/ipmwebsite/static/media/goodExample.4ec406c4.jpg",
     "static/media/goodExampleJPG.f2f663f6.jpg": "/ipmwebsite/static/media/goodExampleJPG.f2f663f6.jpg",
+    "static/media/simonpic.fe9d11ee.jpg": "/ipmwebsite/static/media/simonpic.fe9d11ee.jpg",
     "static/media/twitter.b46ae123.jpg": "/ipmwebsite/static/media/twitter.b46ae123.jpg",
     "static/media/unknown.9a508daa.png": "/ipmwebsite/static/media/unknown.9a508daa.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd691785.js",
-    "static/js/2.fc99ca7b.chunk.js",
-    "static/css/main.6c943ee1.chunk.css",
-    "static/js/main.ebb1ab4a.chunk.js"
+    "static/js/runtime-main.67a8b480.js",
+    "static/js/2.557ea611.chunk.js",
+    "static/css/main.efa5d9c8.chunk.css",
+    "static/js/main.17b6b199.chunk.js"
   ]
 }
