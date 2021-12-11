@@ -1,3 +1,5 @@
+import simon from "./simonpic.jpg"
+
 export const members = [
     {
         "name": "Alberto Miguel Pires Alves",
@@ -10,14 +12,14 @@ export const members = [
         "name": "Francisco Duarte Lourenço Simões",
         "number": "55329",
         "email": "fd.simoes@campus.fct.unl.pt",
-        "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQH34URFk1ePXA/profile-displayphoto-shrink_800_800/0/1615735027017?e=1639008000&v=beta&t=legt1oHS5VnbPavqu2ASReP31V0dP8i2TvwHUog9clI",
+        "photo": simon,
         "club": "https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png"
     },
     {
         "name": "Guilherme Guerreiro Pereira Gil",
         "number": "55313",
         "email": "gg.gil@campus.fct.unl.pt",
-        "photo": "https://media-exp1.licdn.com/dms/image/C5603AQEzs32pNOJtpw/profile-displayphoto-shrink_800_800/0/1615750210780?e=1639008000&v=beta&t=uadK_FfgcukPBio6hm-2ZrUE1YA1KXor3PJtX_qc-YE",
+        "photo": "https://avatars.githubusercontent.com/u/72967988?v=4",
         "club": "https://upload.wikimedia.org/wikipedia/pt/f/f0/500px-SL_Benfica_logo_svg.png"
     }
 ]
