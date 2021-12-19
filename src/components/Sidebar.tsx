@@ -100,7 +100,7 @@ function Sidebar() {
 	);
 
 	return (
-		<div style={{ color: "white" }}>
+		<div style={{ color: "white", backgroundColor: "rgb(28 30 28)" }}>
 			<IconButton
 				color="inherit"
 				onClick={() => toggleDrawer(!open)}
