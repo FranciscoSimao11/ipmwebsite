@@ -1,25 +1,24 @@
-.goal-container{
-    padding-left: 5%;
+.goal-container {
+  padding-left: 5%;
 }
 
-
-.goal-wrapper{
-    justify-content: center;
-    border-left: 0px;
-    border-bottom: 3px;
-    border-top: 0px;
-    border-right: 0px;
-    border-color:rgb(209, 224, 72);
-    border-style: solid;
-    background-color:none;
-    width: 60%;
-    margin: 25px 0 0 0;
+.goal-wrapper {
+  justify-content: center;
+  border-left: 0px;
+  border-bottom: 3px;
+  border-top: 0px;
+  border-right: 0px;
+  border-color: rgb(209, 224, 72);
+  border-style: solid;
+  background-color: none;
+  width: 60%;
+  margin: 25px 0 0 0;
 }
 
-.goal{
-    font-size: 20px;
-    line-height: 32px;
-    font-weight: 600;
-    color: white;
-    margin: 0 0 2.5% 2%;
+.goal {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 2.5% 2%;
 }
