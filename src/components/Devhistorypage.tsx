@@ -31,11 +31,11 @@ function Devhistorypage() {
 			<div className="flex-wrapper">
 				<StageComponent
 					number={5}
-					link="https://drive.google.com/file/d/1JCP3sBZ004Jw0x5-G1-u_EOL_iWZ-tKh/view?usp=sharing"
+					link="https://drive.google.com/file/d/1ZpaSmloJgeDJqZ_etDRVJwDYFMw66hgh/view?usp=sharing"
 				/>
 				<StageComponent
 					number={6}
-					link="https://drive.google.com/file/d/1UzIb-mZ7_MkyULfxf21dzc4c6Gs07ura/view?usp=sharing"
+					link="https://drive.google.com/file/d/1XSXZOqAMX0_cAar3wPzy-VwPinU40IRV/view?usp=sharing"
 				/>
 			</div>
 		</div>
