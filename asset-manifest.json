@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ipmwebsite/static/css/main.6492e78f.chunk.css",
-    "main.js": "/ipmwebsite/static/js/main.e4be2e5a.chunk.js",
-    "main.js.map": "/ipmwebsite/static/js/main.e4be2e5a.chunk.js.map",
+    "main.js": "/ipmwebsite/static/js/main.08f81c49.chunk.js",
+    "main.js.map": "/ipmwebsite/static/js/main.08f81c49.chunk.js.map",
     "runtime-main.js": "/ipmwebsite/static/js/runtime-main.4d72659f.js",
     "runtime-main.js.map": "/ipmwebsite/static/js/runtime-main.4d72659f.js.map",
     "static/js/2.c76ee824.chunk.js": "/ipmwebsite/static/js/2.c76ee824.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.4d72659f.js",
     "static/js/2.c76ee824.chunk.js",
     "static/css/main.6492e78f.chunk.css",
-    "static/js/main.e4be2e5a.chunk.js"
+    "static/js/main.08f81c49.chunk.js"
   ]
 }
