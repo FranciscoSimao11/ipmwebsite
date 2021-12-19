@@ -27,7 +27,7 @@ function App() {
 						<Route path="/ipmwebsite/ourteam" exact>
 							<Teampage />
 						</Route>
-						<Route path="/ipmwebsite/ourgoal" exact>
+						<Route path="/ipmwebsite/aboutus" exact>
 							<Goalpage />
 						</Route>
 						<Route path="/ipmwebsite/devhistory" exact>

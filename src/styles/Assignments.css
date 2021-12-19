@@ -30,7 +30,10 @@
 
 .name {
 	color: rgb(0, 178, 155);
-	font-weight: 600;
+	font-weight: 700;
+	font-size: 24px;
+	padding-bottom: 8px;
+	margin-top: -6px;
 }
 
 .assign-img {

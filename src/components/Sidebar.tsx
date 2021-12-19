@@ -57,15 +57,15 @@ function Sidebar() {
 					</ListItem>
 				</Link>
 				<Link
-					to="/ipmwebsite/ourgoal"
+					to="/ipmwebsite/aboutus"
 					style={{ textDecoration: "none" }}
 					onClick={() => toggleDrawer(!open)}
 				>
-					<ListItem button key={"Our Goal"}>
+					<ListItem button key={"About Us"}>
 						<ListItemIcon>
 							<SportsSoccerRounded />
 						</ListItemIcon>
-						<ListItemText primary={"Our Goal"} sx={{ color: textColor }} />
+						<ListItemText primary={"About Us"} sx={{ color: textColor }} />
 					</ListItem>
 				</Link>
 				<Link
