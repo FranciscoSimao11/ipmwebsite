@@ -1,17 +1,17 @@
-.team-container{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
+.team-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
-.member-container{
-    padding: 10px;
-    text-align: center;
+.member-container {
+  padding: 10px;
+  text-align: center;
 }
-.picture-container{
-    height: 200px;
-    width: 200px;
+.picture-container {
+  height: 200px;
+  width: 200px;
 }
-.member-text{
-    font-size: 17px;
-    color: white;
+.member-text {
+  font-size: 17px;
+  color: white;
 }
