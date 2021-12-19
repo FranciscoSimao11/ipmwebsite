@@ -12,21 +12,19 @@ function Homepage() {
 			<div className="back">
 				<Button
 					sx={{
-						color: "white",
-						backgroundColor: "black",
-						textDecoration: "none",
-						"&:hover": {
-							color: "white",
-							backgroundColor: "rgb(40,40,40)",
-						},
 					}}
 				>
-					<Link href="https://github.com/FranciscoSimao11/balltogether/archive/refs/heads/master.zip">
+					<Link style={{
+						textDecoration: "none",
+						color: "rgb(0, 178, 155)",
+						fontSize: "20px",
+						fontWeight: 600
+					}} href="https://github.com/FranciscoSimao11/balltogether/archive/refs/heads/master.zip">
 						Click here to download the application!
 					</Link>
 				</Button>
 			</div>
-		</div>
+		</div >
 	);
 }
 

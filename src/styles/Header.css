@@ -3,10 +3,10 @@
 	margin-left: 125px;
 	margin-top: -60px;
 	color: white;
-	font-family: "Comfortaa";
 }
 
 .Header-wrapper {
+	background-color: #242825;
 }
 
 @font-face {

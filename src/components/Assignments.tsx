@@ -71,7 +71,7 @@ function Assignments() {
 			<div className="assign-wrapper">
 				<div className="assign">
 					<div className="name">Guilherme Gil </div>
-					<div className="bold">Good Design:</div>Um exemplo de uma boa
+					<div className="bold">Good Design: </div>Um exemplo de uma boa
 					interface é a do pavilhão onde treino voleibol. Este pavilhão tem como
 					objetivo a prática de desporto e tem um elemento que facilita bastante
 					as nossas atividades: um relógio. O relógio permite-nos facilmente
